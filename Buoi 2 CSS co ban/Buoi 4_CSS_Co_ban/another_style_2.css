@@ -1,0 +1,60 @@
+h1 {
+    color: maroon;
+}
+
+.tieu_de:hover {
+    color: teal;
+    background: orange;
+    width: toRem(20px)
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#tieu_de_bai_bao {
+    font-family: cursive;
+}
+
+a[href*='V%E1%BB%8Bnh_H%E1%BA%A1_Long'] {
+    color: lightgreen;
+}
+  
+
+.background_tieu_de {
+    background-color: aqua;
+}
+
+#id {
+    color: gray;
+}
+
+h5 {
+    font-size: 10px;
+}
+
+.class_tac_gia {
+    font-size: 12px;
+}
+
+#id_tac_gia {
+    font-size: 15px;
+}
+
+.dia_diem_dau {
+    font-family: Tahoma;
+}
+
+.mo_ta h5 {
+    color: blueviolet;
+}
+
+li h4 {
+    color: gold;
+}
+
+li,
+h5 {
+    font-family: monospace;
+}
+
