@@ -1,0 +1,22 @@
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    background: red;
+    
+    /* flex-wrap: wrap; */
+    /* height: 200px; */
+    /* align-items: stretch; */
+}
+
+.child {
+    background-color: orange;
+    /* flex-basis: 40%; */
+}
+/* 
+.child-1 {
+    flex: none;
+    width: 100px;
+} */

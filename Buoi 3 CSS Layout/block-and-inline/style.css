@@ -1,0 +1,16 @@
+body {
+    margin: 0
+}
+
+
+.block-1 {
+   display: block;
+   width: 100px;
+   height: 100px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.block-2 {
+    display: block;
+}

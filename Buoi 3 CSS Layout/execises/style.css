@@ -1,0 +1,27 @@
+figure {
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.item  {
+}
+
+.divider {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 1px;
+    height: 20px;
+    background-color: grey;
+}

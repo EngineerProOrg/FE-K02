@@ -1,0 +1,12 @@
+.parent {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.child {
+    background-color: blue;
+    display: inline-block;
+}

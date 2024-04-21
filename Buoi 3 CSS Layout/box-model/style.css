@@ -1,0 +1,27 @@
+body {
+    margin: 0
+}
+
+.block-1 {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: orange;
+    border-width: 5px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 0px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.block-2 {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: brown;
+    border-style: dashed;
+    border-color: blue;
+    border-width: 5px;
+    margin: 30px; 
+}
