@@ -1,0 +1,146 @@
+/* Add Question 1 CSS below: */
+.color-word{
+  color:red;
+}
+
+
+/* Add Question 2 CSS below: */
+
+
+/* Question 3 */
+.highlight-me{
+  color:black;
+  font-size:16px;
+}
+
+/* Question 4 */
+.side-by-side{
+  width:120px;
+  height:70px;
+  background-color:black;
+  margin:10px;
+}
+
+/* Question 5 */
+.gone{
+  background-color:lightgrey;
+  color:grey;
+  font-size:30px;
+  width:100px;
+}
+
+/* Question 6 */
+.increase-orange{
+  background-color:orange;
+  display:inline-block;
+}
+
+/* Question 7 */
+.separate-me{
+  background-color:green;
+  width:200px;
+  height:20px;
+}
+
+/* Question 8 */
+.user-friendly{
+  background-color:black;
+  color:white;
+  text-decoration:none;
+}
+
+/* Question 9 */
+
+.center-me{
+  display:inline-block;
+}
+
+
+/* Question 10 */
+.left-upward{
+  width:200px;
+  height:60px;
+  background-color:green;
+}
+
+/* Question 11 */
+.fixed-btn{
+  background-color:pink;
+  width:130px;
+  padding:20px;
+  text-align:center;
+  text-decoration:none;
+  color:black;
+}
+
+/* Question 12 */
+.position-20-40{
+  background-color:#bb00ff;
+  width:200px;
+  height:100px;
+}
+
+
+
+/* Question 13 */
+.dont-move{
+  width:200px;
+  height:50px;
+  background-color:grey;
+}
+.move-me{
+  width:220px;
+  height:60px;
+  background-color:blue;
+}
+
+/* Question 14 */
+
+/* Question 15 */
+.larger-div{
+  background-color:red;
+  width:260px;
+  height:260px;
+}
+.smaller-div{
+  background-color:purple;
+  width:200px;
+  height:200px;
+}
+
+
+/* Question 16 */
+.parent-div{
+  width:300px;
+  height:300px;
+  position:relative;
+  background-color:lightgrey;
+}
+.child-div{
+  background-color:#4287f5;
+  width:50px;
+  height:50px;
+  position:absolute;
+  bottom:0px;
+  right:0px;
+}
+
+/* Default Styles */
+
+p{
+  color:grey;
+  font-size:14px;
+  max-width:460px;
+}
+
+body{
+  padding-bottom:200px;
+}
+
+.img-ref{
+  width:400px;
+}
+
+h3{
+  text-decoration:underline;
+}
