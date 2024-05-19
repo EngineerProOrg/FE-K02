@@ -7,12 +7,8 @@ interface Object2 {
   name: 'user'
 }
 
+
 type NewType = Object1 & Object2
 
-const demo: NewType = {
-  age: 1,
-}
-
-function test(parms: NewType) {
-
-}
+const test: Object2 = { age: 1, name: 'user' };
+typeof test === 'object' 

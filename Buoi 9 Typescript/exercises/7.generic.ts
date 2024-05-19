@@ -1,4 +1,7 @@
-const useState = (initialValue) => {
+type UseStateReturnType<StateType> = [StateType, (user: StateType) => void]
+
+
+const useState = <StateType>(initialValue: StateType): UseStateReturnType<StateType> => {
   const state = initialValue;
 
   const setState = (val) => {
@@ -10,5 +13,10 @@ const useState = (initialValue) => {
 
 
 const ReactComponent = () => {
-  const [state, setState] = useState()
+  const user: User = {
+    type: 'doctor',
+    hospital: 'Cho Ray'
+  }
+
+  const [state, setState] = useState(user)
 }

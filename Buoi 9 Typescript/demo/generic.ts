@@ -1,6 +1,13 @@
-const fetchUtil = (fetch) => {
-  const data = {}
-  const error = {}
+
+
+const fetchUtil = <ResponseType, ErrorType = ResponseType>(fetch): {
+  data: ResponseType | null;
+  refetch: () => void;
+  error: ErrorType | null;
+  loading: boolean;
+} => {
+  const data = null;
+  const error = null
   const loading = false;
 
   const refetch = () => {
@@ -22,4 +29,9 @@ const fetchUser = () => {
   }))
 }
 
-const { data } = fetchUtil(fetchUser)
+type UserType = {
+  user: string;
+  gender: string
+}
+
+const { data } = fetchUtil<UserType1>(fetchUser)
